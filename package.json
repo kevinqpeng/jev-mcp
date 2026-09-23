@@ -1,0 +1,17 @@
+{
+  "name": "jev-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for TypeSafe Jev decisions",
+  "type": "module",
+  "bin": {
+    "jev-mcp": "./server.mjs"
+  },
+  "files": [
+    "server.mjs",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": "github:kevinqpeng/jev-mcp"
+}
