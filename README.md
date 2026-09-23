@@ -5,7 +5,8 @@ A stdio MCP server that exposes TypeSafe Jev as the `jev_ask` tool.
 ## Install
 
 ```sh
-npm install --global github:kevinqpeng/jev-mcp
+git clone https://github.com/kevinqpeng/jev-mcp.git
+npm install --global ./jev-mcp
 ```
 
 Set `TYPESAFE_API_KEY` in the MCP client's server environment. `JEV_MODEL` is optional and defaults to `jev-latest`.
